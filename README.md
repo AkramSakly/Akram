@@ -15,7 +15,7 @@
 | **[TurtleBot3 Lane Follower: Deep Learning](https://github.com/AkramSakly/turtlebot3-lane-follower)** | Two U-Net CNNs segment lane lines on a real robot. Test IoU **0.83** (yellow) and **0.76** (white), **~31 FPS on CPU** with ONNX Runtime, closed-loop driving with ROS 2. | PyTorch · ONNX · ROS 2 · OpenCV |
 | **[TurtleBot3 AutoRace Lane Follower](https://github.com/AkramSakly/turtlebot3-autorace-lane-follower)** | Classical pipeline on the real robot: camera calibration, bird's-eye projection, HSV lane detection, PD control. | ROS 2 · OpenCV · TurtleBot3 |
 | **[Visual and Visual-Inertial Odometry](https://github.com/AkramSakly/Stereo-VIO-Project)** | ORB-based monocular VO with IMU fusion on the TUM VI benchmark, evaluated with ATE/RPE against motion capture. | Python · OpenCV · NumPy |
-| **[Nailfold Capillaroscopy](https://github.com/AkramSakly/Nailfold)** | Medical image segmentation and classification with ResNet. Segmentation Dice **0.85**, IoU **0.74**. | PyTorch |
+| **[Nailfold Capillaroscopy](https://github.com/AkramSakly/Nailfold)** | Medical imaging (team of two): reproduced CE-NFCNet (EfficientNet-B0, cascade transfer learning) for Normal vs Abnormal classification, accuracy **0.86** with subject-grouped cross-validation, plus a U-Net for capillary segmentation. | PyTorch · EfficientNet · U-Net · scikit-learn |
 
 ### 🛠️ Other work
 
@@ -27,7 +27,7 @@
 ### 🧰 Skills
 
 **Languages & tools:** Python · C++ · MATLAB · Linux · Git
-**Computer vision & ML:** OpenCV · PyTorch · ResNet · U-Net · YOLOv8 · segmentation · object detection · feature matching · ONNX
+**Computer vision & ML:** OpenCV · PyTorch · EfficientNet · ResNet · U-Net · YOLOv8 · segmentation · object detection · feature matching · ONNX
 **Robotics:** ROS 2 · Gazebo · RViz · SLAM · visual(-inertial) odometry · PID control · kinematics · Simulink
 **Hardware:** Raspberry Pi · Arduino · cameras · IMUs · LiDAR · SolidWorks · 3D printing
 
